@@ -1,0 +1,315 @@
+/* body rule*/
+body{                 
+	margin:0px;
+	padding: 0px;
+	background:
+    linear-gradient(
+    rgba(246,247,249,0.3),
+    rgba(246,247,249,0.3)),
+    url(images/header13.jpg) no-repeat center center fixed;
+    font:1em sans-serif;
+  	background-size: cover;
+}
+/* header rule */
+/* header main rule*/
+.header1{
+	width: 100%;
+	height:60px;
+	background-image: url('images/header13.jpg');
+	color: #fff;
+	
+}
+/*header main rule 2*/
+.header1 header{
+	width: 100%;
+	height:60px;
+	background-image: url('images/header13.jpg');
+	position: fixed;
+	z-index: 1;
+	opacity: 0.6;
+}
+/* header title rule*/
+#title{
+	float:left;
+	height: 30px;
+	padding: 15px 30px;
+	font-size:1.2em;
+	line-height: 30px;
+	-webkit-animation:movingimage linear 8s 1s infinite alternate;
+	animation:movingimage linear 12s 1s infinite alternate;
+
+}
+/* header title animation */
+@-webkit-keyframes movingimage
+{
+   0% { opacity:1;left:20px; top:10px;  }
+   25% { opacity:.5;left:20px; top:10px;  }
+   50% { opacity:1;left:20px; top:10px;  }
+   75% { opacity:0;left:20px; top:10px;  }
+   100% { opacity:1;left:20px; top:10px;  }
+}
+/* header ul main rule*/
+.header1 ul{
+	padding: 0;
+	margin: 0;
+	float: left;
+	list-style-type: none;
+	
+}
+/* header ul li main rule*/ 
+.header1   ul .lihome{
+	float: left;
+}
+/* header ul li main rule 2 */
+.header1 ul .lihome{
+	display: inline-block;
+	padding: 15px 20px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+	color: #fff;
+}
+/* header main a rule */ 
+.header1 a{
+	color: #fff;
+	text-decoration:none;
+}
+
+/* header menu sub 1 rule*/
+.sub{
+	position: absolute;
+	top: 60px;
+	width: 113px;
+	left: 317px;
+	display: none;
+}
+/* header menu sub 1 rule 2*/
+.sub-drop ol{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+/* header menu sub 1 ol li a rule*/
+.sub-drop ol  li a{
+	display: inline-block;
+	padding: 10px 20px ;
+}
+/* header menu sub 2 rule 1 */
+.sub2{
+	position: absolute;
+	top: 50px;
+	left: 113px;
+	display: none;
+}
+/* header menu sub 2 rule 2*/
+.sub-drop2 ol{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+/*header main menu hover */
+.header1 ul li:hover{
+	background-color: #ff0055;
+	cursor: pointer;
+}
+/*header menu sub 1 hover */
+.header1 ul li:hover .sub {
+	background-image: url('images/header13.jpg');
+	display:block;
+}
+/* header menu sub 2 hover */
+#web:hover .sub2{
+	background-image: url('images/header13.jpg');
+	display:block;
+}
+
+/* section 1 main.... rule*/
+#section1{
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 571px;
+	background-image: url('images/How-to-Get-Your-Knowledge-Management-Back-on-the-Rails-900x571.png');
+	background-repeat: no-repeat;
+	background-size: 100% 99%;
+	opacity: 0.7;
+}
+/* section 1 signup rule */
+#section1 #signup{
+	float: right;
+	text-align: center;
+	position: relative;
+	right: 350px;
+	background-image: url('images/header13.jpg');
+	width:200px;
+	height: 200px;
+	-webkit-transition:-webkit-transform 4s;
+	transition:-webkit-transform 2s;
+	top: 180px;
+	opacity: 0.8;
+	border-radius: 50%;
+}
+/* section 1 signup hover*/
+#section1 #signup:hover{
+
+-webkit-transform:rotate(360deg) scale(1.5,1.5);
+
+transform:rotate(360deg) scale(1.5,1.5);
+}
+/* section 1 signin rule */
+#section1 #signin{
+	display: block;
+	text-align: center;
+	position: relative;
+	right: -350px;
+	top: 180px;
+	background-image: url('images/header13.jpg');
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	opacity: 0.8;
+	-webkit-transition:-webkit-transform 2s;
+	transform:-webkit-transform 2s;
+}
+/*section 1 signin hover*/
+#section1 #signin:hover{
+	-webkit-transform:rotate(360deg) scale(1.5,1.5);
+	transform:rotate(360deg) scale(1.5,1.5);
+}
+
+/* section 1 tag a rule */
+#section1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	display: inline;
+	position: relative;
+	top: 80px;
+}
+/* section 1 tag a hover*/
+#section1 a:hover{
+	color:#ff0055;
+}
+
+#section2 #image1{
+	width: 970px;
+	height: 290px;
+	background-image: url('images/header13.jpg');
+	border-top-right-radius: 50%;
+} 
+#section2 #image1 p{
+	margin-left: 100px;
+	position: relative;
+	top: 120px;
+	color: #B2B1B2;
+	font-size: 20px;
+}
+#section2 #image1 img{
+	margin-left: 470px;
+	margin-top: -43px;
+		border-top-right-radius: 50%;
+}
+#section2 #image2{
+	width: 970px;
+	height: 290px;
+	background-image: url('images/header13.jpg');
+	margin-top: 40px;
+	border-top-left-radius: 50%;
+}
+#section2  #image2 img{
+	border-top-left-radius: 50%;
+}
+#section2 #image2 p{
+	margin-left: 530px;
+	margin-top: -160px;
+	color: #B2B1B2;
+	font-size: 20px;
+}
+#section2 table{
+	width: 300px;
+	height: 500px;
+	background-image: url('images/header13.jpg');
+	float: right;
+	margin-top: -600px;
+	margin-right: 20px;
+	color: #B2B1B2;
+	border-radius:0.5em;
+	box-shadow: 12px;
+
+}
+
+#section2 table caption{
+	color:#ff0055;
+	background-image: url('images/header13.jpg');
+	position: relative;
+	top: -13px;
+	font-size: 50px;
+	text-shadow: 5px 10px 5px dimgrey;
+	border-radius: 0.5em;
+    -webkit-animation:skew 5s 0s infinite linear;
+    animation:skew 5s 0s infinite linear;
+}
+@-webkit-keyframes skew
+{
+	from {-webkit-transform:skewX(0deg);   }
+    25% {-webkit-transform:skewX(25deg);   }
+	50% {-webkit-transform:skewX(0deg);   }
+	75% {-webkit-transform:skewX(-25deg);   }
+	to {-webkit-transform:skewX(0deg);   }
+}
+#u1{
+	-webkit-animation:movingimage linear 8s 1s infinite alternate;
+	animation:movingimage linear 12s 1s infinite alternate;
+	color: gold;
+
+}
+#u2{
+	-webkit-animation:movingimage linear 8s 1s infinite alternate;
+	animation:movingimage linear 12s 1s infinite alternate;
+	color:silver;
+}
+#u3{
+	-webkit-animation:movingimage linear 8s 1s infinite alternate;
+	animation:movingimage linear 12s 1s infinite alternate;
+	color: #ff5400;
+}
+#section2 table tr img{
+	border-radius: 50%;
+}
+#footer1 table{
+		margin: 0 auto;
+	margin-top: 40px;
+	
+}
+#footer1{
+	width: 100%;
+	height: 200px;
+	background-color:#1A1919;
+}
+
+#footer1 table #tit th{
+	color: #FDFDFD;
+	position: relative;
+	top: 20px;
+	left: -40px;
+}
+#footer1 table td{
+	color: #B2B1B2;
+	padding-right: 40px;
+}
+#footer2{
+	width: 100%;
+	height: 55px;
+	background-color: black;
+}
+#footer2 p{
+	display: inline;
+	color: white;
+	margin-left: 555px;
+	position: relative;
+	top:10px;
+}
+#footer1 a{
+	text-decoration: none;
+	color:#B2B1B2;
+}
